@@ -1,0 +1,14 @@
+{
+  "name": "rust-installer-repo",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  },
+  "scripts": {
+    "prettier": "prettier . --write",
+    "postinstall": "node packages/tool/index.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
