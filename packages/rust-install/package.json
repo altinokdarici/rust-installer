@@ -3,6 +3,10 @@
   "version": "1.75.0",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altinokdarici/rust-installer.git"
+  },
   "devDependencies": {
     "rust-installer-tool": "^0.0.0"
   },

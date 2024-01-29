@@ -2,11 +2,15 @@
   "name": "rust-installer-repo",
   "private": true,
   "devDependencies": {
+    "beachball": "^2.39.0",
     "prettier": "^3.2.4"
   },
   "scripts": {
     "prettier": "prettier . --write",
-    "postinstall": "node packages/tool/index.js"
+    "postinstall": "node packages/tool/index.js",
+    "change": "beachball change",
+    "checkchange": "beachball check",
+    "release": "beachball publish"
   },
   "workspaces": [
     "packages/*"
