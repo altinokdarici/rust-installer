@@ -1,2 +1,2 @@
 export { install } from "./install.js";
-export { getLatestRustVersion } from './getLatestRustVersion.js';
+export { getLatestRustVersion } from "./getLatestRustVersion.js";

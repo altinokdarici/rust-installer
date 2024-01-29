@@ -1,3 +1,3 @@
-import { installRust } from './index.js'
+import { installRust } from "./index.js";
 
 await installRust();
